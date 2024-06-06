@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project">
+        <activity
+            android:name=".Activity.AccountAdminListManagerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.AccountDetailtUserActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.ThongKeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.AccountUserListManagerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.AddAccountAdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.AddCategoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.OrderDetailtOfCategoryManagerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.OrderDetailtManagerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.AddProductActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.CartManagerDetailtActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.OrderManagerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.CartManagerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.ProductManagerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.CategoryManagerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.AcountManagerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.MainAdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.SupportActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.OrderDetailt"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.ListOrderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.CheckoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.CartActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.FoodDetailtActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.ListFoodActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.DoipassActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.DangkyActivity"
+            android:exported="true" />
+        <activity android:name=".Activity.IntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.MainActivity"
+            android:exported="true" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "80119747820",
+    "firebase_url": "https://food-19af0-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "food-19af0",
+    "storage_bucket": "food-19af0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80119747820:android:3beebf9ca68fab2b1841c9",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80119747820-0mm5relmvnkln48q93k4o692hua67qhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbv0nz8sxGqFQFuTQVZe0_kQot_YYx8v8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80119747820-0mm5relmvnkln48q93k4o692hua67qhb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
